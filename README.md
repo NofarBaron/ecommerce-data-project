@@ -19,5 +19,5 @@ created models for user activity, sessions and enriched dimensions
 - Retention analysis
 
 ## Key Insights
-- X% drop from view to cart
-- Y% of users purchase without add_to_cart
+- 5% drop from view to cart
+- 4% of users purchase without add_to_cart
