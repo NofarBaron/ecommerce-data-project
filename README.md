@@ -8,7 +8,7 @@ E-commerce clickstream and transaction data Customer 360 Dataset from Kaggle tha
 The dataset offers a detailed view of user interactions and transactions, enabling analysis of user behavior.
 
 ## Architecture
-Python(preprocessing and sampling) → BigQuery → SQL transformations → Analysis
+Python extract(preprocessing and sampling) → BigQuery → SQL transformations → Analysis
 
 ## Data Modeling 
 created models for user activity, sessions and enriched dimensions
@@ -21,3 +21,4 @@ created models for user activity, sessions and enriched dimensions
 ## Key Insights
 - 5% drop from view to cart
 - 4% of users purchase without add_to_cart
+- for further analyis go to [Insight analysis](analysis/Insights.md)
