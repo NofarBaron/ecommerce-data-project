@@ -7,6 +7,7 @@ success_orders = (df['status'] == 'success').sum()
 refunded_orders = (df['status'] == 'refunded').sum()
 
 total_relevant_orders = success_orders + refunded_orders
+
 print(f"success_orders: {success_orders}")
 print(f"refunded_orders: {refunded_orders}")
 print(f"total_relevant_orders: {total_relevant_orders}")
