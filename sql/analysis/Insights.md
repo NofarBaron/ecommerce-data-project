@@ -12,7 +12,7 @@ The retention analysis include cohort generation based on first activity date, w
 - Earlier Cohorts Performed Better 
     - Earlier cohorts outperformed newer cohorts in both medium-term and long-term retention metrics (Possiblly more effective campaigns or seasonal effects)
 
-![alt text](../../assets/retension.png)
+![alt text](../../assets/retention.png)
 
 ### Business Implications
 - The platform succeeds in generating initial engagement
@@ -35,12 +35,14 @@ For future improvement:
 - DAU remained relatively stable, averaging approximately 600–700 active users per day (around 09/2025-12/2025)
 - MAU peaked at approximately 16K users in September 2025, before experiencing a significant decline to around 1K users by December 2025, 
 followed by a further decrease to approximately 100 monthly active users in later periods.
+
 ![alt text](../../assets/dau.png)
 
 ## Orders Analysis
 - The average monthly order amount remained relatively stable at approximately $45K.
 - Starting in December 2025 (specifically on the 03/12/25), the number of monthly orders declined significantly, decreasing from approximately 6K orders per month to nearly 1K orders.
 - This decline strongly correlates with the reduction in total revenue, which dropped from approximately $250M to around $50M over the same period
+
 ![alt text](../../assets/orders_by_month.png)
 
 ## Products Analysis 
