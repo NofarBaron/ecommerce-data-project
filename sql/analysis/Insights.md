@@ -12,7 +12,7 @@ The retention analysis include cohort generation based on first activity date, w
 - Earlier Cohorts Performed Better 
     - Earlier cohorts outperformed newer cohorts in both medium-term and long-term retention metrics (Possiblly more effective campaigns or seasonal effects)
 
-![alt text](image.png)
+![alt text](retension.png)
 
 ### Business Implications
 - The platform succeeds in generating initial engagement
@@ -42,3 +42,7 @@ followed by a further decrease to approximately 100 monthly active users in late
 - Starting in December 2025 (specifically on the 03/12/25), the number of monthly orders declined significantly, decreasing from approximately 6K orders per month to nearly 1K orders.
 - This decline strongly correlates with the reduction in total revenue, which dropped from approximately $250M to around $50M over the same period
 ![alt text](orders_by_month.png)
+
+## Products Analysis 
+![alt text](products_by_category.png)
+- Top purchased categories are Clothing, Kitchen and Beauty

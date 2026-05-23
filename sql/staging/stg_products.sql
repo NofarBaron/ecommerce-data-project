@@ -1,8 +1,9 @@
 CREATE OR REPLACE TABLE `my-project-284-493514.ecommerce_data.stg_products` AS
 
 WITH cleaned AS (
-    SELECT
-        * except(category),
+    SELECT product_id,
+        product_name,
+       ABS(price) AS price, 
         LOWER(
             TRIM(
                 REGEXP_REPLACE(category, r'[^a-zA-Z0-9]', '')
@@ -12,6 +13,8 @@ WITH cleaned AS (
 
 FROM `my-project-284-493514.ecommerce_data.product_catalog` 
 WHERE product_id IS NOT NULL
+AND NOT IS_NAN(price)
+
 )
 
 SELECT
@@ -40,7 +43,8 @@ SELECT
 
         WHEN cleaned_category IN ('toys','toy')
             THEN 'Toys'
-
+        when cleaned_category IS NULL
+            THEN cleaned_category
         ELSE 'Unknown'
     END AS category
 

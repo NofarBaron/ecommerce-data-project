@@ -21,4 +21,4 @@ created models for user activity, sessions and enriched dimensions
 ## Key Insights
 - 5% drop from view to cart
 - 4% of users purchase without add_to_cart
-- for further analyis go to [Insight analysis](analysis/Insights.md)
+- for further analyis go to [Insight analysis](sql/analysis/Insights.md)
