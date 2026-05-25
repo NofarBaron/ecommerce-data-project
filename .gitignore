@@ -4,3 +4,5 @@ __pycache__/
 data/*.csv
 scripts/calculation.py
 scripts/clean_data.py
+credentials/
+*.json
