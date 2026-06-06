@@ -48,3 +48,7 @@ followed by a further decrease to approximately 100 monthly active users in late
 ## Products Analysis 
 ![alt text](../../assets/products_by_category.png)
 - Top purchased categories are Clothing, Kitchen and Beauty
+
+## Customers Analysis 
+- Most of the orders that made are from Korea and Congo, as well most of the paying customers. 
+

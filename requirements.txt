@@ -1,1 +1,5 @@
 pip3 freeze > requirements.txt
+pandas
+google-cloud-bigquery
+pandas-gbq
+pyarrow
